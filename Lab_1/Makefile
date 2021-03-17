@@ -1,8 +1,13 @@
+useful: buildTest runTest
+
 buildMain: task.c
 	gcc -o task task.c -lm
 
 buildTest: task.c task_test.c
-	gcc -o task_test.exe task.c task_test.c -Dmain=_main -lm
+	gcc -o task_test task.c task_test.c -Dmain=_main -lm
+
+runTest:
+	./task_test
 
 .PHONY: clean
 clean:
