@@ -1,6 +1,7 @@
 #include "function.h"
 #include <assert.h>
 #include <float.h>
+#include <stdio.h>
 
 double test_function() {
     assert(function(1, 1) - 3.33333333333333314830e-01 < 0.0000000000001);
