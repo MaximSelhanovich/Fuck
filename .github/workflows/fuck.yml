@@ -23,5 +23,6 @@ jobs:
       - name: compiling and test
         
         run: |
-          make buildTest -C Lab_1/
+          cd lab1/
+          make buildTest
           /.task_test
