@@ -24,4 +24,3 @@ jobs:
         
         run: |
           make -C Lab_1/
-          ./task_test
