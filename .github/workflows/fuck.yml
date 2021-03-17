@@ -25,4 +25,5 @@ jobs:
         run: |
           cd Lab_1/
           make buildTest
+          cd ../
           /.task_test
