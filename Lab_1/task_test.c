@@ -11,4 +11,5 @@ double test_function() {
 #undef main
 int main() {
     test_function();
+    printf("Scooby-dooby-dooooooooooooo")
 }
