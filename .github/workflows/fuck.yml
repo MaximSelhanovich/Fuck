@@ -13,13 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-      - uses: actions/checkout@v2
-      - name: install valgrind and cpplint
-      
-        run: |
-          sudo apt install valgrind
-          sudo pip install cpplint
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: compiling and test
         
         run: |
