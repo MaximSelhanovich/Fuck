@@ -1,5 +1,3 @@
-useful: buildTest runTest
-
 buildMain: task.c
 	gcc -o task task.c -lm
 
